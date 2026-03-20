@@ -1,4 +1,9 @@
-# Churn Client — Prédiction d'Attrition Botanic
+# 🌿 Churn Client — Prédiction d'Attrition Botanic
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rafceray-churn-botanic-app.streamlit.app)
 
 ## Contexte
 Botanic est un réseau de 75+ jardineries spécialistes du jardinage écologique en France. Ce projet construit un modèle prédictif pour anticiper le départ des clients avant qu'ils ne quittent l'enseigne.
@@ -25,7 +30,13 @@ Identifier les clients à risque d'attrition afin de permettre à Botanic de pre
 - TYPE_UNIVERS — univers produit préféré (coef: +0.28)
 
 ## Stack technique
-Python · pandas · scikit-learn · imbalanced-learn · statsmodels · matplotlib · seaborn
+Python · Pandas · Scikit-learn · Imbalanced-learn · Statsmodels · Matplotlib · Seaborn · Streamlit · Plotly
+
+## Installation
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ## Auteur
-Rafika Ayari Cervera — https://www.linkedin.com/in/rafikacervera/
+Rafika Ayari Cervera — [LinkedIn](https://www.linkedin.com/in/rafikacervera/) · [GitHub](https://github.com/RAFCERAY)
